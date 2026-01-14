@@ -96,6 +96,7 @@ Experiments are conducted using two data flows:
 * Seaborn
 
 ## Citation
+```bibtex
 @article{Alzubaidi2023Dataset,
   title={Large-scale annotation dataset for fetal head biometry in ultrasound images},
   author={Alzubaidi, Mahmood and Agus, Marco and Makhlouf, Michel and Anver, Fatima and Alyafei, Khalid and Househ, Mowafa},
