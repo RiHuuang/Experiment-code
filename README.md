@@ -36,12 +36,13 @@ To reproduce our data pipeline, follow these specific preprocessing steps:
 1.  **Download:** Obtain the dataset in **YOLO format** from the official repository (https://doi.org/10.5281/zenodo.8265464).
 2.  **Extract & Combine:**
     * Extract the downloaded files.
-    * Combine all image and label files into a single master directory named **`YOLO Dataset Full`** Which is provided at **`Dataset\YOLO Dataset Full`**.
+    * Combine all image and label files into a single master directory named **`YOLO Dataset Full`**.
 3.  **Processing:**
     * The `YOLO_Fetal_Head_Object_Detection_Code.ipynb` notebook takes this `YOLO Dataset Full` directory as input.
     * It processes the raw data into standardized images and labels.
     * It then executes the **stratified splitting** (Train/Val/Test) based on Patient ID to ensure no data leakage occurs.
 
+We provided all the data folders here **[Download Here](https://drive.google.com/drive/folders/1xbvf5IdsfUsJNqOg17mqob-4sVEAmb2d?usp=sharing)**
 ---
 
 ## 🚀 Usage Instructions
@@ -95,14 +96,12 @@ Experiments are conducted using two data flows:
 * Seaborn
 
 ## Citation
-
-If you utilize this code or dataset wrapper, please cite our paper and the original dataset:
-
-**Our Paper:**
-```bibtex
-@article{Huang2024FetalDetection,
-  title={Performance Benchmarking of Object Detection Models for Fetal Brain Ultrasound in Resource-Constrained Environments},
-  author={Huang, Richard and Wiyono, Advenia Tricahya and Krisendi, Alvina and Achmad, Said},
-  institution={Bina Nusantara University},
-  year={2026}
+@article{Alzubaidi2023Dataset,
+  title={Large-scale annotation dataset for fetal head biometry in ultrasound images},
+  author={Alzubaidi, Mahmood and Agus, Marco and Makhlouf, Michel and Anver, Fatima and Alyafei, Khalid and Househ, Mowafa},
+  journal={Data in Brief},
+  volume={51},
+  pages={109708},
+  year={2023},
+  publisher={Elsevier}
 }
