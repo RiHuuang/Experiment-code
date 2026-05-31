@@ -1,7 +1,7 @@
 # Performance Benchmarking of Object Detection Models for Fetal Brain Ultrasound in Resource-Constrained Environments
 
-**Authors:** Richard Huang, Advenia Tricahya Wiyono, Alvina Krisendi, Said Achmad
-**Affiliation:** Computer Science Department, School of Computer Science, Bina Nusantara University, Jakarta, Indonesia
+**Authors:** Author 1, Author 2, Author 3, Author 4
+**Affiliation:**  - 
 
 ---
 
